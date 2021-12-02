@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD14F695275801A6000BBB63 /* FloweriosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F694275801A6000BBB63 /* FloweriosApp.swift */; };
+		BD14F697275801A6000BBB63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F696275801A6000BBB63 /* ContentView.swift */; };
+		BD14F699275801A8000BBB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD14F698275801A8000BBB63 /* Assets.xcassets */; };
+		BD14F69C275801A8000BBB63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD14F69B275801A8000BBB63 /* Preview Assets.xcassets */; };
+		BD14F6A6275801A8000BBB63 /* FloweriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6A5275801A8000BBB63 /* FloweriosTests.swift */; };
+		BD14F6B0275801A8000BBB63 /* FloweriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6AF275801A8000BBB63 /* FloweriosUITests.swift */; };
+		BD14F6B2275801A8000BBB63 /* FloweriosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6B1275801A8000BBB63 /* FloweriosUITestsLaunchTests.swift */; };
+		BD14F6C2275802F5000BBB63 /* floweriosLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6C1275802F5000BBB63 /* floweriosLogin.swift */; };
+		BD14F6C427580499000BBB63 /* floweriosSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6C327580499000BBB63 /* floweriosSignup.swift */; };
+		BD14F6C827580671000BBB63 /* wedding.json in Resources */ = {isa = PBXBuildFile; fileRef = BD14F6C727580671000BBB63 /* wedding.json */; };
+		BD14F6CB275807D2000BBB63 /* weddingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6CA275807D2000BBB63 /* weddingPage.swift */; };
+		BD14F6FD27580B2D000BBB63 /* weddingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F6FC27580B2D000BBB63 /* weddingModel.swift */; };
+		BD14F70327580C21000BBB63 /* weddingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14F70227580C21000BBB63 /* weddingRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD14F6A2275801A8000BBB63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD14F689275801A6000BBB63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD14F690275801A6000BBB63;
+			remoteInfo = Flowerios;
+		};
+		BD14F6AC275801A8000BBB63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD14F689275801A6000BBB63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD14F690275801A6000BBB63;
+			remoteInfo = Flowerios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD14F691275801A6000BBB63 /* Flowerios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowerios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD14F694275801A6000BBB63 /* FloweriosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloweriosApp.swift; sourceTree = "<group>"; };
+		BD14F696275801A6000BBB63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD14F698275801A8000BBB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD14F69B275801A8000BBB63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD14F6A1275801A8000BBB63 /* FloweriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloweriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD14F6A5275801A8000BBB63 /* FloweriosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloweriosTests.swift; sourceTree = "<group>"; };
+		BD14F6AB275801A8000BBB63 /* FloweriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloweriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD14F6AF275801A8000BBB63 /* FloweriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloweriosUITests.swift; sourceTree = "<group>"; };
+		BD14F6B1275801A8000BBB63 /* FloweriosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloweriosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD14F6C1275802F5000BBB63 /* floweriosLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floweriosLogin.swift; sourceTree = "<group>"; };
+		BD14F6C327580499000BBB63 /* floweriosSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floweriosSignup.swift; sourceTree = "<group>"; };
+		BD14F6C727580671000BBB63 /* wedding.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wedding.json; sourceTree = "<group>"; };
+		BD14F6CA275807D2000BBB63 /* weddingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weddingPage.swift; sourceTree = "<group>"; };
+		BD14F6FC27580B2D000BBB63 /* weddingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weddingModel.swift; sourceTree = "<group>"; };
+		BD14F70227580C21000BBB63 /* weddingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weddingRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD14F68E275801A6000BBB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD14F69E275801A8000BBB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD14F6A8275801A8000BBB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD14F688275801A6000BBB63 = {
+			isa = PBXGroup;
+			children = (
+				BD14F693275801A6000BBB63 /* Flowerios */,
+				BD14F6A4275801A8000BBB63 /* FloweriosTests */,
+				BD14F6AE275801A8000BBB63 /* FloweriosUITests */,
+				BD14F692275801A6000BBB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD14F692275801A6000BBB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F691275801A6000BBB63 /* Flowerios.app */,
+				BD14F6A1275801A8000BBB63 /* FloweriosTests.xctest */,
+				BD14F6AB275801A8000BBB63 /* FloweriosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD14F693275801A6000BBB63 /* Flowerios */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6C6275805F4000BBB63 /* CategoryPage */,
+				BD14F6C0275802D0000BBB63 /* Auth */,
+				BD14F694275801A6000BBB63 /* FloweriosApp.swift */,
+				BD14F696275801A6000BBB63 /* ContentView.swift */,
+				BD14F698275801A8000BBB63 /* Assets.xcassets */,
+				BD14F69A275801A8000BBB63 /* Preview Content */,
+			);
+			path = Flowerios;
+			sourceTree = "<group>";
+		};
+		BD14F69A275801A8000BBB63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F69B275801A8000BBB63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD14F6A4275801A8000BBB63 /* FloweriosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6A5275801A8000BBB63 /* FloweriosTests.swift */,
+			);
+			path = FloweriosTests;
+			sourceTree = "<group>";
+		};
+		BD14F6AE275801A8000BBB63 /* FloweriosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6AF275801A8000BBB63 /* FloweriosUITests.swift */,
+				BD14F6B1275801A8000BBB63 /* FloweriosUITestsLaunchTests.swift */,
+			);
+			path = FloweriosUITests;
+			sourceTree = "<group>";
+		};
+		BD14F6C0275802D0000BBB63 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6C1275802F5000BBB63 /* floweriosLogin.swift */,
+				BD14F6C327580499000BBB63 /* floweriosSignup.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BD14F6C6275805F4000BBB63 /* CategoryPage */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6FF27580BD4000BBB63 /* Views */,
+				BD14F6C92758074E000BBB63 /* Resources */,
+				BD14F6FE27580B92000BBB63 /* Model */,
+			);
+			path = CategoryPage;
+			sourceTree = "<group>";
+		};
+		BD14F6C92758074E000BBB63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6C727580671000BBB63 /* wedding.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD14F6FE27580B92000BBB63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F6CA275807D2000BBB63 /* weddingPage.swift */,
+				BD14F6FC27580B2D000BBB63 /* weddingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD14F6FF27580BD4000BBB63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD14F70227580C21000BBB63 /* weddingRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD14F690275801A6000BBB63 /* Flowerios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD14F6B5275801A8000BBB63 /* Build configuration list for PBXNativeTarget "Flowerios" */;
+			buildPhases = (
+				BD14F68D275801A6000BBB63 /* Sources */,
+				BD14F68E275801A6000BBB63 /* Frameworks */,
+				BD14F68F275801A6000BBB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flowerios;
+			productName = Flowerios;
+			productReference = BD14F691275801A6000BBB63 /* Flowerios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD14F6A0275801A8000BBB63 /* FloweriosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD14F6B8275801A8000BBB63 /* Build configuration list for PBXNativeTarget "FloweriosTests" */;
+			buildPhases = (
+				BD14F69D275801A8000BBB63 /* Sources */,
+				BD14F69E275801A8000BBB63 /* Frameworks */,
+				BD14F69F275801A8000BBB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD14F6A3275801A8000BBB63 /* PBXTargetDependency */,
+			);
+			name = FloweriosTests;
+			productName = FloweriosTests;
+			productReference = BD14F6A1275801A8000BBB63 /* FloweriosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD14F6AA275801A8000BBB63 /* FloweriosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD14F6BB275801A8000BBB63 /* Build configuration list for PBXNativeTarget "FloweriosUITests" */;
+			buildPhases = (
+				BD14F6A7275801A8000BBB63 /* Sources */,
+				BD14F6A8275801A8000BBB63 /* Frameworks */,
+				BD14F6A9275801A8000BBB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD14F6AD275801A8000BBB63 /* PBXTargetDependency */,
+			);
+			name = FloweriosUITests;
+			productName = FloweriosUITests;
+			productReference = BD14F6AB275801A8000BBB63 /* FloweriosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD14F689275801A6000BBB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BD14F690275801A6000BBB63 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BD14F6A0275801A8000BBB63 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BD14F690275801A6000BBB63;
+					};
+					BD14F6AA275801A8000BBB63 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BD14F690275801A6000BBB63;
+					};
+				};
+			};
+			buildConfigurationList = BD14F68C275801A6000BBB63 /* Build configuration list for PBXProject "Flowerios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD14F688275801A6000BBB63;
+			productRefGroup = BD14F692275801A6000BBB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD14F690275801A6000BBB63 /* Flowerios */,
+				BD14F6A0275801A8000BBB63 /* FloweriosTests */,
+				BD14F6AA275801A8000BBB63 /* FloweriosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD14F68F275801A6000BBB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD14F69C275801A8000BBB63 /* Preview Assets.xcassets in Resources */,
+				BD14F699275801A8000BBB63 /* Assets.xcassets in Resources */,
+				BD14F6C827580671000BBB63 /* wedding.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD14F69F275801A8000BBB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD14F6A9275801A8000BBB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD14F68D275801A6000BBB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD14F6C427580499000BBB63 /* floweriosSignup.swift in Sources */,
+				BD14F6CB275807D2000BBB63 /* weddingPage.swift in Sources */,
+				BD14F6FD27580B2D000BBB63 /* weddingModel.swift in Sources */,
+				BD14F6C2275802F5000BBB63 /* floweriosLogin.swift in Sources */,
+				BD14F70327580C21000BBB63 /* weddingRow.swift in Sources */,
+				BD14F697275801A6000BBB63 /* ContentView.swift in Sources */,
+				BD14F695275801A6000BBB63 /* FloweriosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD14F69D275801A8000BBB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD14F6A6275801A8000BBB63 /* FloweriosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD14F6A7275801A8000BBB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD14F6B0275801A8000BBB63 /* FloweriosUITests.swift in Sources */,
+				BD14F6B2275801A8000BBB63 /* FloweriosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD14F6A3275801A8000BBB63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD14F690275801A6000BBB63 /* Flowerios */;
+			targetProxy = BD14F6A2275801A8000BBB63 /* PBXContainerItemProxy */;
+		};
+		BD14F6AD275801A8000BBB63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD14F690275801A6000BBB63 /* Flowerios */;
+			targetProxy = BD14F6AC275801A8000BBB63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD14F6B3275801A8000BBB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD14F6B4275801A8000BBB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD14F6B6275801A8000BBB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flowerios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.sgu.Flowerios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD14F6B7275801A8000BBB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flowerios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.sgu.Flowerios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD14F6B9275801A8000BBB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.sgu.FloweriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flowerios.app/Flowerios";
+			};
+			name = Debug;
+		};
+		BD14F6BA275801A8000BBB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.sgu.FloweriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flowerios.app/Flowerios";
+			};
+			name = Release;
+		};
+		BD14F6BC275801A8000BBB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.sgu.FloweriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flowerios;
+			};
+			name = Debug;
+		};
+		BD14F6BD275801A8000BBB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.ac.sgu.FloweriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flowerios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD14F68C275801A6000BBB63 /* Build configuration list for PBXProject "Flowerios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD14F6B3275801A8000BBB63 /* Debug */,
+				BD14F6B4275801A8000BBB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD14F6B5275801A8000BBB63 /* Build configuration list for PBXNativeTarget "Flowerios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD14F6B6275801A8000BBB63 /* Debug */,
+				BD14F6B7275801A8000BBB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD14F6B8275801A8000BBB63 /* Build configuration list for PBXNativeTarget "FloweriosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD14F6B9275801A8000BBB63 /* Debug */,
+				BD14F6BA275801A8000BBB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD14F6BB275801A8000BBB63 /* Build configuration list for PBXNativeTarget "FloweriosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD14F6BC275801A8000BBB63 /* Debug */,
+				BD14F6BD275801A8000BBB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD14F689275801A6000BBB63 /* Project object */;
+}
